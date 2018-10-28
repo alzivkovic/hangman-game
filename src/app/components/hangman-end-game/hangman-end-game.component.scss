@@ -1,0 +1,38 @@
+:host {
+    position: absolute;
+    text-align: center;
+    left: 40px;
+    top: 30px;
+    height: 450px;
+    width: 955px;
+    background-color: #000;
+    opacity: 0.9;
+    border-radius: 33px;
+    padding: 100px;
+    box-sizing: border-box;
+    color: #fff;
+
+    .base-word {
+        font-size: 45px;
+        margin-bottom: 2rem;
+        &.correct {
+            color: rgb(51, 209, 51);
+        }
+        .wrong {
+            color: rgb(248, 56, 56);
+        }
+    }
+
+    .status {
+        font-size: 30px;
+        margin-bottom: 1rem;
+    }
+
+    .reset-game {
+        font-size: 25px;
+        &:hover {
+            cursor: pointer;
+            color: rgb(149, 252, 162);
+        }
+    }
+}

@@ -1,0 +1,22 @@
+export default [
+    "triangle",
+    "magazine",
+    "accident",
+    "language",
+    "autonomy",
+    "campaign",
+    "activate",
+    "distinct",
+    "vegetable",
+    "candidate",
+    "statement",
+    "relevance",
+    "distortion",
+    "dependence",
+    "substitute",
+    "exhibition",
+    "introduction",
+    "prescription",
+    "conventional",
+    "jurisdiction"
+];

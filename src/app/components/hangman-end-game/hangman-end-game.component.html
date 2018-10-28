@@ -1,0 +1,10 @@
+<div>
+    <div *ngIf="successfullyFinished" class="base-word correct">{{selectedWord}}</div>
+    <div *ngIf="!successfullyFinished" class="base-word">
+        <span *ngFor="let letter of selectedWord.split('')" [ngClass]="{'wrong': !selectedLetters[letter]}">
+            {{letter}}
+        </span>
+    </div>
+    <div class="status">{{successfullyFinished ? "WELL DONE!" : "GAME OVER"}}</div>
+    <div (click)="resetGame()" class="reset-game">click for new game</div>
+</div>

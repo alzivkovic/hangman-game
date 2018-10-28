@@ -1,0 +1,11 @@
+<div class="hangman-letters">
+    <div *ngFor="let letters of lettersBlock" class="letters-block">
+        <div 
+            *ngFor="let letter of letters"
+            [ngClass]="{'letter': true, 'have': selectedLetters[letter] === true, 'have-not' : selectedLetters[letter] === false}"
+            (click)="letterClick(letter)" 
+        >
+            {{letter}}
+        </div>
+    </div>
+</div>

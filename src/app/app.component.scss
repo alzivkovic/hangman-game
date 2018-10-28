@@ -1,0 +1,11 @@
+@font-face { 
+    font-family: "HoboStd";
+    src: url("../assets/fonts/HoboStd.otf");
+}
+
+.hangman-container {
+    width: 1024px;
+    margin: auto;
+    position: relative;
+    font-family: 'HoboStd';
+}
